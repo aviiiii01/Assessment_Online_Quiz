@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MERN Stack Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="heading">Online Quiz</h3>
+      <div class="main-container">
+        <div class="main">
+          <p class="question" id="question">What is the capital of France?</p>
+          <div id="options"></div>
+        </div>
+        <div class="btn-section">
+          <button class="btn1" onclick="prevQuestion()">Previous</button>
+          <button class="btn2" onclick="nextQuestion()">Next</button>
+          <button class="btn-submit"  onclick="submitQuiz()">Submit</button>
+        </div>
+        <div class="result" id="result"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
